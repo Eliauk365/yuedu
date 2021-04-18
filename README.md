@@ -14,7 +14,7 @@
 -
 
 #### :ledger: 3.0书源
-- 书源导入地址：https://github.com/Eliauk365/yuedu/blob/51110e5627590cc57d962f1d58998065cbf3bf58/%E4%B9%A6%E6%BA%90.json
+- 书源导入地址：https://sourl.cn/N2hVn6
 - :bullettrain_side: 加速地址：
 
 如果对于网络状况良好、无污染的环境下，建议直接复制书源导入地址，因为可以第一获取到最新的资源。因为服务器在境外，可能导入响应时间和速度稍长，但因为文件小，所以通常问题不大。
