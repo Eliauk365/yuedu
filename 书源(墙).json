@@ -1,0 +1,43 @@
+{
+    "bookSourceUrl": "http://www.quanben.io/",
+    "bookSourceType": "0",
+    "bookSourceName": "全本小说网",
+    "bookSourceGroup": "风畔",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\",\n    \"Accept-Language\":\"zh-CN,zh;q=0.9\"\n}",
+    "searchUrl": "https://www.qb50.com/modules/article/search.php?searchkey={{key}},{\"charset\":\"gbk\"}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1619883443705,
+    "ruleSearch": {
+        "bookList": "class.grid",
+        "name": "class.odd.0@text",
+        "author": "class.odd.1@text",
+        "wordCount": "class.even.1@text",
+        "lastChapter": "class.even.0@tag.a@text",
+        "intro": "class.odd.2@text",
+        "bookUrl": "class.odd.0@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "id.info@tag.h1@text",
+        "author": "id.info@tag.h1@tag.small@text",
+        "wordCount": "class.update@text",
+        "lastChapter": "class.update@tag.a@text",
+        "intro": "class.intro@text",
+        "coverUrl": "class.img_in@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.zjlist@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    }
+}
