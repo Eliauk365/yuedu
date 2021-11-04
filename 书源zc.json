@@ -1,0 +1,45 @@
+{
+    "bookSourceUrl": "http://cuoheng.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "错横文学网",
+    "bookSourceGroup": "test",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "http://cuoheng.com/?s={{key}}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1636036264792,
+    "ruleSearch": {
+        "bookList": "class.excerpt",
+        "name": "tag.h2@text",
+        "author": "class.muted.0@tag.a@text",
+        "intro": "class.note@text",
+        "coverUrl": "class.focus@tag.img@src",
+        "bookUrl": "tag.h2@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@tag.a@text",
+        "author": "class.muted.2@tag.a@text",
+        "kind": "class.muted.1@tag.a@text",
+        "intro": "class.article-content@tag.p.0@text",
+        "coverUrl": "class.article-content@tag.p.3@tag.img@src",
+        "tocUrl": "tag.h2@tag.a@href"
+    },
+    "ruleToc": {
+        "chapterList": "class.Volume.1@tag.dd",
+        "chapterName": "tag.dd.0@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@text"
+    }
+}
