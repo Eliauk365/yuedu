@@ -1,4 +1,5 @@
-{
+[
+    {
     "bookSourceUrl": "http://cuoheng.com/",
     "bookSourceType": "0",
     "bookSourceName": "错横文学网",
@@ -42,4 +43,51 @@
     "ruleContent": {
         "content": "id.content@text"
     }
-}
+    },
+    {
+        "bookSourceUrl": "www.171xiaoshuo.com",
+        "bookSourceType": "0",
+        "bookSourceName": "⚡️171小说",
+        "bookSourceGroup": "test",
+        "bookSourceComment": "\n",
+        "loginUrl": "",
+        "loginUi": "",
+        "loginCheckJs": "",
+        "concurrentRate": "",
+        "header": "",
+        "bookUrlPattern": "",
+        "searchUrl": "http://www.171xiaoshuo.com/search/?q={{key}}",
+        "exploreUrl": "",
+        "enabled": true,
+        "enabledExplore": true,
+        "weight": 0,
+        "customOrder": -88894216,
+        "lastUpdateTime": 1636082023790,
+        "ruleSearch": {
+            "bookList": "class.item",
+            "name": "tag.a@text",
+            "author": "tag.span.0@text",
+            "intro": "tag.dd@text",
+            "coverUrl": "tag.a@tag.img@src",
+            "bookUrl": "tag.dt@tag.a@href"
+        },
+        "ruleExplore": {},
+        "ruleBookInfo": {
+            "name": "class.f21h@text",
+            "author": "class.divauthor@text",
+            "kind": "class.nav@tag.li.8@text",
+            "lastChapter": "class.play-list@tag.a.0@text",
+            "intro": "class.des@text",
+            "coverUrl": "class.pic@tag.img@src",
+            "tocUrl": "class.btopt@tag.a@href"
+        },
+        "ruleToc": {
+            "chapterList": "class.listcon@tag.dd",
+            "chapterName": "tag.a.0@text",
+            "chapterUrl": "tag.a.0@href"
+        },
+        "ruleContent": {
+            "content": "class.content@text"
+        }
+    }
+]
